@@ -159,6 +159,7 @@ MonoBehaviour:
   totalTime: 0
   player: {fileID: 0}
   healthPoints: 40
+  bugs: {fileID: 0}
 --- !u!195 &84495663
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -253,7 +254,7 @@ GameObject:
   - component: {fileID: 123274503}
   m_Layer: 7
   m_Name: Bugs
-  m_TagString: Untagged
+  m_TagString: Bugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5065,7 +5066,7 @@ GameObject:
   - component: {fileID: 189897023}
   m_Layer: 7
   m_Name: Bugs
-  m_TagString: Untagged
+  m_TagString: Bugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9981,6 +9982,7 @@ MonoBehaviour:
   totalTime: 0
   player: {fileID: 0}
   healthPoints: 40
+  bugs: {fileID: 0}
 --- !u!1 &229590460
 GameObject:
   m_ObjectHideFlags: 0
@@ -9994,7 +9996,7 @@ GameObject:
   - component: {fileID: 229590462}
   m_Layer: 7
   m_Name: Bugs
-  m_TagString: Untagged
+  m_TagString: Bugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15003,7 +15005,7 @@ GameObject:
   - component: {fileID: 471022659}
   m_Layer: 7
   m_Name: Bugs
-  m_TagString: Untagged
+  m_TagString: Bugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19846,7 +19848,7 @@ GameObject:
   - component: {fileID: 548233050}
   m_Layer: 7
   m_Name: Bugs
-  m_TagString: Untagged
+  m_TagString: Bugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24681,6 +24683,7 @@ MonoBehaviour:
   totalTime: 0
   player: {fileID: 0}
   healthPoints: 40
+  bugs: {fileID: 0}
 --- !u!195 &670465193
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -24869,7 +24872,7 @@ GameObject:
   - component: {fileID: 811277591}
   m_Layer: 7
   m_Name: Bugs
-  m_TagString: Untagged
+  m_TagString: Bugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29674,7 +29677,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh85326
+  m_Name: pb_Mesh27788
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -29912,7 +29915,7 @@ GameObject:
   - component: {fileID: 884361430}
   m_Layer: 7
   m_Name: Bugs
-  m_TagString: Untagged
+  m_TagString: Bugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34747,6 +34750,7 @@ MonoBehaviour:
   totalTime: 0
   player: {fileID: 0}
   healthPoints: 40
+  bugs: {fileID: 0}
 --- !u!195 &943713989
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -34941,7 +34945,7 @@ GameObject:
   - component: {fileID: 1025425416}
   m_Layer: 7
   m_Name: Bugs
-  m_TagString: Untagged
+  m_TagString: Bugs
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39956,6 +39960,7 @@ MonoBehaviour:
   totalTime: 0
   player: {fileID: 0}
   healthPoints: 40
+  bugs: {fileID: 0}
 --- !u!195 &1202881935
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -40132,6 +40137,7 @@ MonoBehaviour:
   totalTime: 0
   player: {fileID: 0}
   healthPoints: 40
+  bugs: {fileID: 0}
 --- !u!195 &1274112842
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47034,6 +47040,7 @@ MonoBehaviour:
   totalTime: 0
   player: {fileID: 0}
   healthPoints: 40
+  bugs: {fileID: 0}
 --- !u!195 &1862409799
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47151,6 +47158,7 @@ MonoBehaviour:
   totalTime: 0
   player: {fileID: 0}
   healthPoints: 40
+  bugs: {fileID: 0}
 --- !u!195 &1923121788
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47557,12 +47565,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Just another day at BugsBusterz Ltd.\n\nNobody told you that this bugs
+  m_Text: "Just another day at BugsBusterz Ltd.\n\nNobody told you that these bugs
     were... Angry.\nThey don't pay you enough for this, but ehi, you are there now,
     and you need to get out of there ALIVE. \n\nInstructions: \n\nKill all the bugs
     to survive.\nYou have 10 medikits to heal yourself, use them carefully. (Q -
     key)\nYou shoot poison from your gun. (Left-click)\nArrow keys or WASD to move.\nPress
-    Esc to pause/resume/start the game.\n\nEnjoy!\n..Or don't."
+    Esc to pause/resume/start the game.\n\nEnjoy!\n...Or don't."
 --- !u!222 &2063215934
 CanvasRenderer:
   m_ObjectHideFlags: 0

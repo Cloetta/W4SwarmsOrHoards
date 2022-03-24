@@ -9,11 +9,14 @@ public class BugsCombat : MonoBehaviour
     public PlayerCombat player;
 
     public float healthPoints = 40;
+
+    public ParticleSystem bugs;
+
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCombat>();
-        
+        bugs = GetComponentInChildren<ParticleSystem>();
     }
 
     // Update is called once per frame
@@ -25,6 +28,7 @@ public class BugsCombat : MonoBehaviour
         }
     }
 
+    [System.Obsolete]
     public void TakeDamage()
     {
         //move to damaging self to enemy script
@@ -37,6 +41,14 @@ public class BugsCombat : MonoBehaviour
             Debug.Log("EnemyHp:" + healthPoints + ", totalTime: " + totalTime);
 
             totalTime = 0;
+
+
+            bugs.emissionRate -= 10;
+
+            if (bugs.emissionRate <= 5)
+            {
+                bugs.emissionRate = 5;
+            }
         }
     }
 
